@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build:dev"
-  publish = "dist"
+  command = "cd Documents/newww/excalidraw-master/excalidraw-master && yarn install --ignore-engines && yarn build:packages && cd excalidraw-app && yarn build:app:netlify && yarn build:version"
+  publish = "Documents/newww/excalidraw-master/excalidraw-master/excalidraw-app/build"
 
 [[redirects]]
   from = "/*"
